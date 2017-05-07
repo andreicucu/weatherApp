@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster|Tangerine|Bitter">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dda5636ad8.js"></script>
 </head>
 <body>
-
+<div class="container">
+    <br>
+    <br>
+    <br>
+    <div class="col-md-8 col-md-offset-2">
+        <div class="well">
+            <p id="demo"></p>
+            <p id="longitude">Longitude</p>
+            <p id="latitude">Latitude</p>
+            <p id="temp">Temperature</p>
+            <button onclick="getLocation()" class="btn btn-info">Try It</button>
+        </div>
+    </div>
+</div>
 </body>
 </html>
