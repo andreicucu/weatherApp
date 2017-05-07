@@ -14,6 +14,8 @@ var temp;
     // request weather information from Dark Sky API
       var apiUrl = 'https://api.darksky.net/forecast/18fcaf9b1475d7eb30b1e5f304e30e3f/'+lat+','+long;
 
+    // request weather information from open weather API
+
 //testing
       console.log(apiUrl);
 
@@ -25,10 +27,8 @@ var weatherInfo = function (data) {
     $("#temp").text(data.currently.temperature);
 };
 
-$.getJSON(apiUrl,weatherInfo,'jsonp');
 // JSON call to open weather API
-//    $(button).click(function(){
-//        $.getJSON(url,weatherInfo,'jsonp')
+$.getJSON(apiUrl,weatherInfo,'jsonp');
     });
   }
 });
