@@ -1,0 +1,16 @@
+#animated-weather {
+    height = 300 px !important;
+    width = 300 px !important;
+}
+
+h2, h3, h4 {
+    font-family: Bitter, monospace;
+}
+
+.well {
+    background-color: #ffba1c;
+}
+
+body {
+    background-color: #287700;
+}
