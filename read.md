@@ -1,6 +1,5 @@
-Welcome to the weatherApp wiki!
+### Welcome to the weatherApp wiki!
 
-### Hello world
 ## user stories below
 
 * can see the weather in my location
